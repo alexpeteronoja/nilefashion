@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <div>
         <nav className="bg-[#1f2937] text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-5 lg:px-8">
             <div className="flex justify-between items-center min-h-16 ">
               {/* Logo */}
               <div className="text-[28px] font-bold flex items-center space-x-2.5">

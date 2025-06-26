@@ -1,12 +1,39 @@
-# React + Vite
+# Juxta Fashion - Urban Fashion One-Page Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, modern one-page website built for **Juxta Fashion**, a fictional urban fashion brand tailored for **Gen Z** and **millennials**.
 
-Currently, two official plugins are available:
+This project showcases a sleek design with subtle animations, responsive layout, and clear calls to action. It was built using **React** and **Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Hero Section**  
+  Eye-catching slogan and call-to-action button that represents Juxta’s bold urban style.
+
+- **Product Highlights**  
+  Featured fashion items, each animated smoothly on hover using **Framer Motion**.
+
+- **Newsletter Signup**  
+  A simple, accessible form to capture user emails.
+
+- **Footer**  
+  Includes social media icons and a signature message:  
+  _“Made with 💚 by Nile”_
+
+- **Fully Responsive**  
+  Optimized for mobile, tablet, and desktop screens.
+
+---
+
+## Demo Preview
+
+Here is the debo for the site. [https://nilefashion.vercel.app/](https://nilefashion.vercel.app)
+
+---
+
+## Tech Stack
+
+- **React.js**
+- **Tailwind CSS**
+- **Framer Motion** (for hover animations)

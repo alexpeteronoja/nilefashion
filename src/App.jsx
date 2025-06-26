@@ -27,7 +27,7 @@ function App() {
 
         {/* Hero Section */}
 
-        <div className="bg-[#1f2937] text-center text-white py-20">
+        <div className="bg-[#1f2937] text-center text-white py-20 px-5 xl:px-30">
           <p className="header-font font-semibold text-4xl md:text-6xl ">
             STYLE FOR THE CITY
           </p>
@@ -43,7 +43,7 @@ function App() {
 
         {/* Product Section */}
 
-        <div className="py-20 md:py-25 lg:py-20 px-10 xl:px-30">
+        <div className="py-20 md:py-25 lg:py-20 px-5 xl:px-30">
           <p
             id="product-section"
             className="header-font font-semibold text-4xl md:text-6xl text-center mb-10"
@@ -67,7 +67,7 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-[#FF5A5F] py-10 px-10 xl:px-30 grid md:grid-cols-[60%_40%] gap-x-3 gap-y-13">
+        <div className="bg-[#FF5A5F] py-10 px-5 xl:px-30 grid md:grid-cols-[60%_40%] gap-x-3 gap-y-13">
           <div className="order-2 md:order-1 flex flex-col items-center justify-center text-center">
             <p className="header-font font-bold text-4xl md:text-5xl text-white">
               JUXTA BOBYWEAR
@@ -92,7 +92,7 @@ function App() {
 
         {/* Newslater */}
 
-        <div className="py-20 md:py-25 lg:py-20 px-10 xl:px-30 text-center">
+        <div className="py-20 md:py-25 lg:py-20 px-5 xl:px-30 text-center">
           <p className="header-font font-bold text-4xl md:text-5xl ">
             JOIN OUR NEWSLETTER
           </p>
@@ -110,7 +110,7 @@ function App() {
 
             <br />
 
-            <button className="border rounded-md px-15 py-2 cursor-pointer bg-[#FF5A5F] text-white mt-3">
+            <button className="border rounded-md px-15 py-2 cursor-pointer bg-[#FF5A5F] text-white mt-3 mx-auto">
               SUBSCRIBE NOW
             </button>
           </form>
