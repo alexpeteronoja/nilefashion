@@ -6,7 +6,7 @@ function Cards(props) {
       <motion.div
         className="w-[250px]   p-8 text-base shadow-md inika-font hover:shadow-2xl product-card"
         whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
+        // whileTap={{ scale: 0.95 }}
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0, ease: "easeInOut" }}
