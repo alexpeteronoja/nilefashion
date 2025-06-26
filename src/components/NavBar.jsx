@@ -17,7 +17,7 @@ function Navbar() {
                   alt=""
                   className="w-9 h-7"
                 /> */}
-                <a href="">JUXTA</a>
+                <Link to="/">JUXTA</Link>
               </div>
 
               {/* Hamburger Button (Mobile) */}
@@ -57,9 +57,9 @@ function Navbar() {
 
               {/* Navigation Links (Desktop) */}
               <div className="hidden md:flex items-center space-x-5 dm-sans-font font-medium text-lg">
-                <a href="" className=" hover:text-blue-500">
+                <Link to="" className=" hover:text-blue-500">
                   Shop
-                </a>
+                </Link>
 
                 <Link
                   to="/"
@@ -69,17 +69,17 @@ function Navbar() {
                   Product
                 </Link>
 
-                <a
-                  href=""
+                <Link
+                  to="/"
                   // state={{ scrollTo: 'project-section' }}
                   className="hover:text-blue-500"
                 >
                   Resources
-                </a>
+                </Link>
 
-                <a href="" className="hover:text-blue-500">
+                <Link to="/" className="hover:text-blue-500">
                   Contact Us
-                </a>
+                </Link>
 
                 <div className="hidden md:flex space-x-6">
                   <button className="bg-[#4F9CF9] hover:text-white py-3 px-5 rounded-[8px] my-4">
@@ -107,17 +107,17 @@ function Navbar() {
                 Product
               </Link>
 
-              <a
-                href=""
+              <Link
+                to="/"
                 // state={{ scrollTo: 'project-section' }}
                 className="hover:text-blue-500 py-1 px-2"
               >
                 Resources
-              </a>
+              </Link>
 
-              <a href="" className="hover:text-blue-500 py-1.5 px-2">
+              <Link to="/" className="hover:text-blue-500 py-1.5 px-2">
                 Contact Us
-              </a>
+              </Link>
 
               <div className="flex flex-col md:hidden">
                 <button className="bg-[#4F9CF9] w-full h-15 rounded-[8px] my-3">
