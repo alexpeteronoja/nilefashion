@@ -1,0 +1,26 @@
+@import "tailwindcss";
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-font {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* .product-card {
+    transition: all 0.3s ease;
+} */
+
+
+/* .product-card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 10px 20px rgba (0, 0, 0, 0.1);
+} */
